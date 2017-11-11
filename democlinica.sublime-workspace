@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ng-in",
+				"ng-init\tAngularJS"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"Resp",
+				"responsables"
+			],
+			[
+				"lis",
+				"listAll"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"fp",
+				"formaspago"
+			],
+			[
+				"arti",
+				"articulos"
+			],
+			[
+				"cre",
+				"crearOperacion"
+			],
+			[
+				"cargo",
+				"cargo"
+			],
+			[
+				"end",
+				"endpoints"
+			],
+			[
+				"en",
+				"endpoint"
+			],
+			[
+				"Tipo",
+				"tipoUsoHabitacion"
+			],
+			[
+				"ti",
+				"tipoHabitacion"
+			],
+			[
+				"tip",
+				"tiposHabitaciones"
+			],
+			[
+				"ob",
+				"objetos"
+			],
+			[
+				"Hab",
+				"HabitacionesEndPoints"
+			],
+			[
+				"fet",
+				"FETCH_OBJ"
+			],
+			[
+				"VALI",
+				"validarDni"
+			],
+			[
+				"vali",
+				"validarDni"
+			],
+			[
+				"ng-b",
+				"ng-blur\tAngularJS"
+			],
+			[
+				"col-sm",
+				"col-sm-6"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"est",
+				"estatus"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"ordenes",
+				"ordenesservicio"
+			],
+			[
+				"main",
+				"mainCtl"
+			],
+			[
+				"ngc",
+				"ng-controller\tAngularJS"
+			],
+			[
+				"ngv",
+				"ng-view\tAngularJS"
+			],
+			[
+				"ng",
+				"ng-app\tAngularJS"
+			],
+			[
+				"banco",
+				"bancosCtl"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 201.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"proad",
+				"Project: Add Folder"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: sftp",
+				"Package Control: Satisfy Dependencies"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"apidoc -i controladores/ -o documentation/ -t template/",
+			"pwd",
+			"apidoc -i controladores/ -o documentation/ -t template/",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/demoClinica"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/demoClinica/index.html",
+		"/opt/lampp/htdocs/demoClinica/css/main.css",
+		"/opt/lampp/htdocs/demoClinica/controladores/habitacionesCtl.js",
+		"/opt/lampp/htdocs/demoClinica/controladores/habitacionesEditCtl.js",
+		"/opt/lampp/htdocs/demoClinica/vistas/habitaciones-edit.html",
+		"/opt/lampp/htdocs/demoClinica/vistas/habitaciones-create.html",
+		"/opt/lampp/htdocs/demoClinica/controladores/habitacionesCreateCtl.js",
+		"/opt/lampp/htdocs/demoClinica/js/config.js",
+		"/opt/lampp/htdocs/demoClinica/modelos/modeloTiposHabitaciones.js",
+		"/opt/lampp/htdocs/demoClinica/controladores/sftp-config.json",
+		"/opt/lampp/htdocs/demoClinica/vistas/habitaciones-lista.html",
+		"/opt/lampp/htdocs/demoClinica/vistas/bancos-lista.html",
+		"/opt/lampp/htdocs/demoClinica/js/app.js",
+		"/opt/lampp/htdocs/demoClinica/modelos/modeloHabitaciones.js",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/index.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Visitas.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Responsables.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Pacientes.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Abonos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Habitaciones.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/HabitacionesEndPoints.php",
+		"/home/joserodriguez/binarios/Odontologia/instancias.json",
+		"/home/joserodriguez/binarios/Odontologia/conex.xml",
+		"/home/joserodriguez/binarios/Condominio/ini.conf",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/FormasPagoAbonos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Operaciones.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Cargos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/VisitasEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/TiposOperaciones.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/CargosEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/AbonosEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/TiposFormasPago.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Articulos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/EstatusCargos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/ArticulosEndPoints.php",
+		"/home/joserodriguez/Documentos/personales/galletas de avena",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/HistoriasEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Historias.php",
+		"/home/joserodriguez/Documentos/modulo clinica/Módulo de clinica Arbol de funciones.txt",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Bancos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/documentation/index.html",
+		"/home/joserodriguez/Documentos/Modulo condominio/aguaclara/claves varias",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/EstadosCivil.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/EstadosCivilEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/SexosEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Sexos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/PacientesEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/BancosEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/MedicosEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/InsumosEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/ClientesEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/MotivosCambioHabitacion.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/MotivosCambiosHabitacionEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/MotivosAnularCargosEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/MotivosAnularCargos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/MotivosAnularAbonosEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/MotivosAnularAbonoEndPoint.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/endpoints/MotivosAnularAbonoEndPoints.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/TiposHabitaciones.php",
+		"/home/joserodriguez/binarios/Hotel/xml/reportespantalla.xml",
+		"/home/joserodriguez/binarios/Hotel/xml/reportesmaestro.xml",
+		"/home/joserodriguez/proyectosJava/Hotel/HotelFrontOffice/instancias.json",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/TiposUsosHabitaciones.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/EstatusHabitaciones.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Clientes.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Insumos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/controladores/Medicos.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/v1/apidoc.json",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/ConexionMS.php",
+		"/home/joserodriguez/PhpstormProjects/api.saint/v1/controladores/Bancos.php",
+		"/home/joserodriguez/PhpstormProjects/api.saint/v1/index.php",
+		"/home/joserodriguez/PhpstormProjects/api.clinica/sftp-config.json",
+		"/opt/lampp/etc/php.ini",
+		"/home/joserodriguez/Documentos/Modulo condominio/aguaclara/respaldos/2410589_aguaclara.sql",
+		"/home/joserodriguez/Documentos/Modulo Hotel/Riviera/cargos2017.txt",
+		"/home/joserodriguez/Documentos/Modulo Hotel/Riviera/riviera05102017.sql",
+		"/home/joserodriguez/PhpstormProjects/jarodriguez/index.html",
+		"/home/joserodriguez/Descargas/b&w/index.html",
+		"/home/joserodriguez/Documentos/respaldo.java",
+		"/home/joserodriguez/Documentos/iaaPetroleo/actualizaciones/12092017/auditoriacajachica.sql",
+		"/home/joserodriguez/PhpstormProjects/api.profits/v1/index.php",
+		"/home/joserodriguez/PhpstormProjects/api.profits/v1/controladores/Proveedores.php",
+		"/home/joserodriguez/PhpstormProjects/api.profits/v1/controladores/Bancos.php",
+		"/home/joserodriguez/PhpstormProjects/api.profits/sftp-config.json",
+		"/home/joserodriguez/.anydesk/incoming/2017-10-02 10:57:54.187/Reporte_Compra_de_Productos_x_Proveedor.rtm",
+		"/home/joserodriguez/binarios/NotaEntrega/iniMsSql.conf",
+		"/home/joserodriguez/binarios/Produccion/iniMsSql.conf",
+		"/home/joserodriguez/binarios/Produccion/conexion.conf",
+		"/home/joserodriguez/Documentos/personales/ubicaciones proyectos en hostings",
+		"/home/joserodriguez/Documentos/iaahierro/actualizaciones/despachos/30092017/readme",
+		"/home/joserodriguez/Documentos/iaahierro/actualizaciones/despachos/30092017/despachadores.sql",
+		"/home/joserodriguez/Documentos/tutoriales e instructivos/limpiar archivos log de sqlserver.sql",
+		"/home/joserodriguez/Documentos/Documentos Funeraria/portal web/documentacion portal web",
+		"/home/joserodriguez/PhpstormProjects/pruebas/pruebaB4.html",
+		"/home/joserodriguez/PhpstormProjects/pruebas/css/main.css",
+		"/home/joserodriguez/PhpstormProjects/pruebas/sftp-config.json",
+		"/run/user/1000/gvfs/smb-share:server=192.168.1.122,share=temp/Odontologia/instancias.json",
+		"/home/joserodriguez/Documentos/Modulo Odontologia/odontologia.sql",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/beneficiarios-create.html",
+		"/run/user/1000/gvfs/smb-share:server=192.168.1.10,share=c$/xampp/htdocs/vgs/index.html",
+		"/run/user/1000/gvfs/smb-share:server=192.168.1.10,share=c$/xampp/htdocs/vgs/js/app.js",
+		"/home/joserodriguez/Descargas/pp",
+		"/home/joserodriguez/proyectosJava/NotaEntregaSaint/DatosEmpleados.xml",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/contratos-create.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/contratos-edit.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/listaClientes.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/datosCliente.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/controllers/contratos-create.controller.js",
+		"/home/joserodriguez/PhpstormProjects/vgs/controllers/contratos-edit.controller.js",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/detalleCliente.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/sftp-config.json",
+		"/home/joserodriguez/Documentos/Documentos Funeraria/domiciliacion/cobranzas/10012017.txt",
+		"/home/joserodriguez/Descargas/01022017.txt",
+		"/run/user/1000/gvfs/smb-share:server=192.168.1.10,share=c$/xampp/htdocs/vgs/vistas/buscar.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/buscar.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/index.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/contratosprocesados.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/login.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/css/main.css",
+		"/home/joserodriguez/PhpstormProjects/vgs/js/app.js",
+		"/home/joserodriguez/PhpstormProjects/vgs/js/config.js",
+		"/home/joserodriguez/PhpstormProjects/vgs/vistas/cambio-clave.html",
+		"/home/joserodriguez/PhpstormProjects/vgs/controllers/cambio-clave.controller.js",
+		"/home/joserodriguez/PhpstormProjects/api.ordenes.com/v1/Controladores/Usuarios.php",
+		"/home/joserodriguez/PhpstormProjects/rma-cliente/usuarios/cambio-clave.controller.js",
+		"/home/joserodriguez/PhpstormProjects/vgs/modelos/usuarios.modelo.js",
+		"/home/joserodriguez/PhpstormProjects/vgs/vgs.sublime-project",
+		"/home/joserodriguez/PhpstormProjects/condominioweb/index.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"                ",
+			"navbar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "democlinica.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

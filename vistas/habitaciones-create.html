@@ -1,0 +1,46 @@
+<div class="container" ng-init="vm.load()">
+    <h3>Datos de la habitacion</h3>
+    <form id="formulario" name="formulario" class="form-horizontal" role="form">
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="descripcion">Descripcion:</label>
+            <div class="col-sm-6">
+                <input class="form-control"  type="text" id="descripcion" name="descripcion" required="required"
+                       ng-model="vm.habitacion.descripcion" placeholder="Descripcion"
+                       data-ng-class='{ error: formulario.descripcion.$invalid && !formulario.$pristine }'>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="nombreCorto">Nombre corto:</label>
+            <div class="col-sm-6">
+                <input class="form-control"  type="text" id="nombreCorto" name="nombreCorto" required="required"
+                       ng-model="vm.habitacion.nombreCorto" placeholder="nombre corto"
+                       data-ng-class='{ error: formulario.nombreCorto.$invalid && !formulario.$pristine }'>
+            </div>
+        </div>
+        <div class="form-group" >
+            <label class="control-label col-sm-2 " for="tipo">Tipo:</label>
+            <div class=" col-sm-4 ">
+                <select  class="dropdown form-control"
+                         name="tipo"
+                         id="tipo"
+                         ng-model="vm.habitacion.tipo"
+                         ng-options="x.descripcion for x in vm.tipos track by x.id">
+                    <option value="" disabled selected>Seleccione...</option>
+                </select>
+
+            </div>
+            <span ng-show="formulario.tipo.$error.required">El campo es obligatorio.</span>
+        </div>
+        
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+
+                <button ng-click="vm.volver()" class="btn btn-default">
+                    <span class="glyphicon glyphicon-arrow-left"></span> Retorno</button>
+                <button ng-click="vm.create()" class="btn btn-primary" data-ng-disabled='!formulario.$valid'>
+                    <span class="glyphicon glyphicon-ok" ></span> Grabar</button>
+            </div>
+
+        </div>
+        </form>
+</div>

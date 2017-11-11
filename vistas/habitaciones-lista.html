@@ -1,0 +1,42 @@
+<div class="container-fluid" ng-init="vm.load()">
+    <div class="row-fluid">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h3>Todas las Habitaciones</h3>
+                <p class="text-right">
+                    <a href="#habitaciones-create"><span class="glyphicon glyphicon-plus"></span> Nuevo</a>
+                </p>
+            </div>
+            
+            <div class="panel-body">
+
+                <table id="tbl" class="table table-hover table-condensed">
+                    <thead>
+                    <th>ID</th>
+                    <th>DESCRIPCION</th>
+                    <th>TIPO HABITACION</th>
+                    <th COLSPAN="2">ACCIONES</th>
+                    </thead>
+                    <tbody ng-repeat="row in vm.todos">
+                    <tr>
+                        <td ng-bind="row.id"></td>
+                        <td ng-bind="row.descripcion"></td>
+                        <td ng-bind="row.tipo.descripcion"></td>
+                        <td>
+                            <button ng-click="vm.editar(row.id)" class="btn btn-small btn-link">
+                                <span class="glyphicon glyphicon-pencil"></span></button>
+                            <button ng-click="vm.eliminar(row.id)" class="btn btn-small btn-link">
+                                <span class="glyphicon glyphicon-trash"></span></button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-footer">
+                <p class="text-center">TOTAL HABITACIONES: {{vm.todos.length}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
